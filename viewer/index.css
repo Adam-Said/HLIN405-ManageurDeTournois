@@ -1,0 +1,147 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #252530;
+}
+
+header {
+  top: 0%;
+  padding: 0%;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+  background-color: rgba(100, 100, 100, 0.205);
+}
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+.home_div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.home_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.home_div p a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.sub_title .titrepage{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.tournois_list {
+    background-color: rgba(241, 241, 241, 0.849);
+    margin: 0 auto;
+    margin-top: 3em;
+    padding: 1em;
+    width: 60%;
+    border-radius: 20px;
+    height: auto;
+    
+}
+
+.container {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.selectSection {
+	display: grid;
+	grid-template-columns: repeat( 3, 1fr);
+	justify-content: center;
+	text-align: center;
+  margin-top: 10px;
+}
+.selectSection button {
+    border-radius: 90px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+    margin: .5em;
+    cursor: pointer;
+    
+}
+.active {
+	background-color: #199fff !important;
+    box-shadow: inset 0 -.3em 0 rgba(0,0,0,0.3);
+    position: relative;
+}
+/* hides every element except the first */
+.content:not(:first-child) {
+	display: none;
+}
+
+.table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+.table td, .table th {
+    border: 1px solid #023558;
+    padding: 8px;
+}
+  
+.table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table tr:hover {background-color: rgb(177, 177, 177);}
+  
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #023558;
+    color: white;
+}
+
+.table td {
+      color: black;
+}
+
+.button {
+    font-size: 18px;
+    background-color: lighten(#1d1f20, 10%);
+    color: #000;
+    display: block;
+    line-height: 1em;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 100ms ease-out;
+}
+
+#info_p {
+    color: #000;
+    text-align: center;
+    align-self: flex-end;
+}

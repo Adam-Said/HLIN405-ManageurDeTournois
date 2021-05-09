@@ -1,0 +1,175 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #1F1F1F;
+    background-size: 6000% 100%;
+}
+
+
+header {
+    background-color: #26282C;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 2%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+#title {
+    color: #252530;
+    cursor: default;
+}
+
+p {
+    color: #F5F5F5;
+    font-size: 16px;
+}
+
+.home_div {
+    margin-top: 10px;
+    padding-right: 2%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.home_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: #F5F5F5;
+    font-size: 18px;
+    border: 2px solid #F5F5F5;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.home_div p a:hover {
+    background-color: #F5F5F5;
+    color: #26282C;
+    text-decoration: none;
+    border: 2px solid #F5F5F5;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+::placeholder{
+    color: #F5F5F5;
+}
+
+.leave_div {
+    margin-top: 10px;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leave_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: red;
+    font-size: 18px;
+    border: 2px solid red;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    margin-left: 4px;
+}
+
+.leave_div p a:hover {
+    background-color: red;
+    color: #F5F5F5;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+#account_button a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: #F5F5F5;
+    font-size: 18px;
+    border: 2px solid #F5F5F5;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s
+}
+
+#account_button a:hover {
+    background-color: #F5F5F5;
+    color: #26282C;
+    text-decoration: none;
+    border: 2px solid #F5F5F5;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.contact_form {
+    width : 50%;
+    padding: 20px;
+}
+
+.feedback-input, #dropdown {
+  margin-top: 10px;
+  color:#F5F5F5;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #F5F5F5;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus, #dropdown:focus { border:2px solid #34619D; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+    max-height: 300px;
+    min-height: 150px;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#26282C;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#F5F5F5;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#34619D; border-radius: 20px;}
+
+.drop_option {
+    color: black;
+}
+
+#serverh4 {
+    color: #e90c59;
+    font-size: 24px;
+    text-align: center;
+}

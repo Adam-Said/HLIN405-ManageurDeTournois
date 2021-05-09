@@ -1,0 +1,159 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #252530;
+    background-size: 6000% 100%;
+}
+
+
+
+#title {
+    color: black;
+    cursor: pointer;
+    margin: 0%;
+
+}
+
+#title:hover  {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+    transition: 5s ease-in-out;
+    cursor: default;
+}
+
+h2 {
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 5%;
+}
+
+@-webkit-keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
+    }
+
+    to {
+      -webkit-mask-position: -50%;
+    }
+  }
+
+* {box-sizing: border-box}
+
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+  }
+  
+  .input-group button:hover {
+    opacity:1;
+    background-color: #20AA00;
+    border-radius: 20px;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #288b00;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+.login_div {
+    width: 50%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+#login_box {
+    width: auto;
+    top : 10px;
+    position: absolute;
+    right: 35px;
+}
+
+.accordion {
+    background-color: rgba(219, 219, 219, 0.6);
+    color: rgb(0, 0, 0);
+    cursor: default;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    animation-timing-function: ease-in-out;
+  }
+
+.accordion:hover {
+    border-radius: 25px;
+    animation-timing-function: ease-in-out;
+
+}
+
+#errortxt {
+    color: red;
+}
+

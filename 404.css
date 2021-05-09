@@ -1,0 +1,29 @@
+.center{text-align:center}
+#space-invaders {
+  margin: 0 auto;
+  display: block;
+  background: white
+}
+
+p {
+    padding: 5px;
+    line-height: 1.6
+}
+.label {
+    background-color:brown;
+    color: white;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Files</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Fichiers du site</h1>
+        <div id="files"></div>
+        <a href="https://github.com/Gaiko19/tournois">Github du projet</a>
+    </body>
+    <script src="Repo.js/repo.js"></script>
+    <script>
+        $('#files').repo({ user: 'Gaiko19', name: 'tournois', branch: 'main' })
+    </script>
+</html>

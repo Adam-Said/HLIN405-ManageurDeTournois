@@ -1,0 +1,141 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #252530;
+    background-size: 6000% 100%;
+}
+
+
+header {
+    background-color: rgba(100, 100, 100, 0.534);
+    margin: 0%;
+    padding: 0%;
+    padding-left: 2%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+#title {
+    color: white;
+    cursor: default;
+}
+
+.title_div {
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+.home_div {
+    margin-top: 1%;
+    padding-right: 2%;
+}
+
+.home_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.home_div p a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.sub_title p {
+    font-size: 20px;
+}
+
+.leave_div {
+    margin-top: 1%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leave_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: red;
+    font-size: 18px;
+    border: 2px solid red;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    margin-left: 4px;
+}
+
+.leave_div p a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+center {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+.zoom {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s
+}
+
+h3 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+#account_button a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s
+}
+
+#account_button a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+#errortxt {
+    color: red;
+}

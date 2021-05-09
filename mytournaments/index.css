@@ -1,0 +1,233 @@
+    body {
+        padding: 0%;
+        margin: 0%;
+        font-family: 'Nanum Gothic', sans-serif;
+        background: #1F1F1F;
+        background-size: 6000% 100%;
+    }
+    
+    header {
+        background-color: #26282c;
+        margin: 0%;
+        padding: 0%;
+        padding-left: 2%;
+        padding-bottom: 10px;;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    #textdiv{
+        padding-top : 20px;
+        font-size: 34px;
+    }
+      
+    #waiting{
+        background-color: #26282c;
+        height : 200px;
+        width : 80%;
+        border-radius: 30px;
+        padding-top: 4%;
+    }
+    
+    #title {
+        color: #252530;
+        cursor: default;
+    }
+    
+    
+    p {
+        color: white;
+        font-size: 16px;
+    }
+    
+    
+    .home_div {
+        margin-top: 10px;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    
+    .home_div p a {
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 0.2cm;
+        color: #F5F5F5;
+        font-size: 18px;
+        border: 2px solid #F5F5F5;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s
+    }
+    
+    .home_div p a:hover {
+        background-color: #F5F5F5;
+        color: #26282c;
+        text-decoration: none;
+        border: 2px solid #F5F5F5;
+        border-radius: 20px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s
+    }
+    
+    .leave_div {
+        margin-top: 1%;
+        padding-right: 2%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .leave_div p a {
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 0.2cm;
+        color: red;
+        font-size: 18px;
+        border: 2px solid red;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+        margin-left: 4px;
+    }
+    
+    .leave_div p a:hover {
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        border: 2px solid red;
+        border-radius: 20px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5ss
+    }
+    
+    button {
+        background-color: #5cbf00;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 80%;
+        opacity: 0.9;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+        border-radius: 10px;
+    }
+    
+    button:hover {
+        opacity:1;
+        background-color: #39773b;
+    }
+
+    #account_button a {
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 0.2cm;
+        color: #F5F5F5;
+        font-size: 18px;
+        border: 2px solid #F5F5F5;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.2s
+    }
+    
+    #account_button a:hover {
+        background-color: #F5F5F5;
+        color: #26282c;
+        text-decoration: none;
+        border: 2px solid #F5F5F5;
+        border-radius: 20px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s
+    }
+    
+    #tournaments{
+        background-color: #26282c;
+        height : auto;
+        padding: 5px;
+        width : 80%;
+        border-radius: 30px;
+        padding-top: 4%;
+    }
+    
+    .tournament_main {
+        width: 1000px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+    }
+    
+    .tournaments_list {
+        height: 150px;
+        width: 150px;
+        background-color: lightgray;
+        border-radius: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .tournaments_list p {
+        color: black;
+    }
+    
+    .request_main {
+        width: 1000px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: stretch;
+    }
+    
+    .request {
+        height: 150px;
+        width: 150px;
+        background-color: lightgray;
+        border-radius: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px;
+        margin-right: 15px;
+
+    }
+    .request p {
+        color: black;
+    }
+    
+    .request .accept {
+        width: 70px;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .request .decline {
+        width: 70px;
+        background-color: red;
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .request .decline:hover {
+        background-color: darkred;
+    }
+    
+    button a {
+        text-decoration: none;
+        color: #F5F5F5;
+        font-size: 16px;
+        text-align: center;
+    }

@@ -1,0 +1,146 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #252530;
+    background-size: 6000% 100%;
+}
+
+* {box-sizing: border-box}
+
+
+    input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  .infos {
+    cursor: help;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    }
+
+
+
+  .infos .txt_infos {
+    visibility: hidden;
+    width: 300%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+
+  .infos:hover .txt_infos {
+    visibility: visible;
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #7e7e7e;
+    color: white;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+.login_form_div {
+    padding: 1em;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2em;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+#login_box {
+    width: auto;
+    top: 15px;
+    position: absolute;
+    right: 35px;
+}
+
+.accordion {
+    background-color: rgba(219, 219, 219, 0.6);
+    color: rgb(0, 0, 0);
+    cursor: default;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+.accordion:hover {
+    border-radius: 25px;
+    animation-timing-function: ease-in-out;
+}
+
+#errortxt {
+    color: red;
+}

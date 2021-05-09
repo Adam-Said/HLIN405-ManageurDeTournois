@@ -1,0 +1,327 @@
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Nanum Gothic', sans-serif;
+    background: #252530;
+    background-size: 6000% 100%;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+header {
+    background-color: rgba(100, 100, 100, 0.534);
+    margin: 0%;
+    padding: 0%;
+    padding-left: 2%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+#title {
+    color: #252530;
+    text-align: justify;
+}
+
+#serverh4 {
+    color: #e90c59;
+    font-size: 24px;
+    text-align: center;
+}
+
+#serverload {
+display:block;
+margin:auto;
+}
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+.home_div {
+    margin-top: 10px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.home_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.home_div p a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+
+.leave_div {
+    margin-top: 10px;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leave_div p a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: red;
+    font-size: 18px;
+    border: 2px solid red;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    margin-left: 4px;
+}
+
+.leave_div p a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+
+.creation_form_div {
+    margin: 5%;
+    padding: 3.5%;
+    border-radius: 20px;
+    margin-top: 3em;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+.creation_form_div_champ {
+    margin: 5%;
+    padding: 3.5%;
+    border-radius: 20px;
+    margin-top: 3em;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.61);
+}
+
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=date], input[type=number] , #type {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+  
+input[type=text]:focus, input[type=date]:focus, input[type=number]:focus, #type:hover {
+    background-color: #ddd;
+    outline: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 25%;
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+.button_champ {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 100% !important;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+  
+.button_champ:hover {
+    background-color: #347536;
+    opacity:1;
+}
+
+button:hover {
+    background-color: #347536;
+    opacity:1;
+}
+
+#account_button a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color:white;
+    font-size: 18px;
+    border: 2px solid white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+#account_button a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid rgb(38, 35, 48);
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.content {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+
+}
+
+#player_div {
+    width: 25%;
+}
+
+#disabled {
+    cursor: not-allowed;
+}
+
+.visualizer {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 25px;
+}
+
+#bracket {
+    margin: 30px;
+}
+
+.bracket:last-child .round:last-child .match:last-child .teamContainer {
+    display: none;
+}
+
+#btn_delete {
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.2cm;
+    color: red;
+    font-size: 18px;
+    border: 2px solid red;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+    margin-left: 16px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#btn_delete:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 20px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+#btn_randomise {
+    background-color:#e90c59;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+    
+    opacity: 0.9;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+#btn_randomise:hover {
+    background-color: #a10c59;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+#btn_aleat {
+    background-color:#d63707;
+    color: white;
+    margin-left: 25%;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    
+    opacity: 0.9;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;
+}
+
+#btn_aleat:hover {
+    background-color: #9e301d;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s
+}
+
+.grille {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align : center;
+  }
+  
+  .grille td, .grille th {
+    border: 1px solid #023558;
+    padding: 8px;
+  }
+  
+  .grille tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .grille tr:hover {background-color: rgb(177, 177, 177);}
+  
+  .grille th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #023558;
+    color: white;
+  }
+
+.table td {
+      color: black;
+}
