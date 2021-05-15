@@ -130,7 +130,7 @@ echo '<form method="POST" action="server.php" name="creator" onsubmit="return co
 
         <?php
 
-        $pdo = new PDO("mysql:host=localhost;dbname=sc1samo7154_tournoi", "sc1samo7154", "6N7MV75oqA");
+        $pdo = new PDO("mysql:host=********;dbname=********", "********", "********");
 
         $status = $pdo->prepare("SELECT tournament_state, tournament_type FROM tournament WHERE tournament_name = '{$tournament_name}'");
 
